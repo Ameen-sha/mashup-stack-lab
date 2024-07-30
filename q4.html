@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            border-collapse: collapse;
+            width: 50%;
+            height: 300px;
+            margin-left: 300px;
+        }
+        td{
+            text-transform: capitalize;
+        }
+        [class$="fa-eye"]{
+          color: skyblue;
+        }
+        [class$="fa-pen"]{
+          color: #f9b60e;
+        }
+        [class$="fa-trash-can"]{
+          color: red;
+        }
+        .previous{
+            border:none ;
+            text-decoration: none;
+            color: black;
+            background-color: #b8adad;
+            
+        }
+        .one{
+            border:none ;
+            text-decoration: none;
+            color: black;
+            background-color: #b8adad;
+            border-radius: 50%;
+        }
+        .main{
+            border: 8px solid;
+            padding-bottom: 100px;
+        }
+        h1{
+            text-align: center;
+            font-weight: 200;
+        }
+        span{
+            font-weight: 900;
+
+        }p{
+            display: inline;
+        }
+        .show{
+        padding-left: 40px;
+
+        }
+        input{
+            float: right;
+            margin-right: 120px;
+            border: 3px inset black;
+        }
+        .p2{
+           margin-left: 294px;
+        }
+        ul,li{
+            text-decoration: none;
+            display: inline;
+        }.row{
+            margin-left: 60%;
+        }.previous{
+            border: solid gray;
+            border: none;
+        }.circle{
+            border-radius: 100%;
+            border: solid gray;
+            background:gray;
+        }.blue{
+            border-radius: 100%;
+            border: solid blue;
+            background:blue;
+        }
+
+      
+
+      
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="headline">
+            <h1>Customer <span>Details</span></h1>
+        
+    <table border="1">
+        <p class="show">show</p>
+        <select name="" id="select">
+            <option value="">1</option>
+            <option value="">2</option>
+            <option value="">3</option>
+            <option value="">4</option>
+            <option value="">5</option>
+
+        </select>
+        <p>entries</p>
+        <input type="text" placeholder="search">
+        <tr>
+            <th>#</th>
+            <th>Name<i class="fa-solid fa-sort"></i></th>
+            <th>Address</th>
+            <th>City<i class="fa-solid fa-sort"></i></th>
+            <th>Pincode</th>
+            <th>Country<i class="fa-solid fa-sort"></i></th>
+            <th>Actions</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Thomas Hardy</td>
+            <td>89 Chairsco Rd.</td>
+            <td>Portland</td>
+            <td>91219</td>
+            <td>USA</td>
+            <td>
+                <i class="fa-solid fa-eye"></i>
+                <i class="fa-solid fa-pen"></i>
+                <i class="fa-regular fa-trash-can"></i>
+            </td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>maria anders</td>
+            <td>obere str.57</td>
+            <td>berlin</td>
+            <td>12209</td>
+            <td>germany</td>
+            <td>
+                <i class="fa-solid fa-eye"></i>
+                <i class="fa-solid fa-pen"></i>
+                <i class="fa-regular fa-trash-can"></i>
+            </td>        </tr>
+        <tr>
+            <td>3</td>
+            <td>fran wilson</td>
+            <td>c/araquil,67</td>
+            <td>madrid</td>
+            <td>28023</td>
+            <td>span</td>
+            <td>
+                <i class="fa-solid fa-eye"></i>
+                <i class="fa-solid fa-pen"></i>
+                <i class="fa-regular fa-trash-can"></i>
+            </td>        </tr>
+        <tr>
+            <td>4</td>
+            <td>dominic perrier</td>
+            <td>25,rue lauriston</td>
+            <td>paris</td>
+            <td>75016</td>
+            <td>france</td>
+            <td>
+                <i class="fa-solid fa-eye"></i>
+                <i class="fa-solid fa-pen"></i>
+                <i class="fa-regular fa-trash-can"></i>
+            </td>        </tr>
+        <tr>
+            <td>5</td>
+            <td>martin blank</td>
+            <td>via montrblanco 34</td>
+            <td>turin</td>
+            <td>10100</td>
+            <td>italy</td>
+            <td >
+                <i class="fa-solid fa-eye"></i>
+                <i class="fa-solid fa-pen"></i>
+                <i class="fa-regular fa-trash-can"></i>
+            </td>       
+    </tr>
+
+    </table><br><br>
+  <div class="container">
+    <p class="p2">Showing 5 out of 25 entries</p>
+
+    <div class="row">
+
+ <ul >
+    <li class="previous">previous</li>
+    <li class="circle">1</li>
+    <li class="circle">2</li>
+    <li class="blue">3</li>
+    <li class="circle">4</li>
+    <li class="circle">5</li>
+    <li class="circle">next</li>
+ </ul>
+</div></div>
+</div></div>
+    <script src="https://kit.fontawesome.com/90e99b5171.js" crossorigin="anonymous"></script>
+</body>
+</html>
